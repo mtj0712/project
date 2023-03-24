@@ -1,15 +1,14 @@
 $("#submit").click(function() {
-	var state = $("#state-dropdown").val();
+	var city = $("#city").val();
 
 	$.ajax({
 		method: "POST",
-		url: "location",
+		url: "current",
 		data: {
-			state: state
+			city: city
 		}
 	}).done(function(data) {
-		alert("Success!");
-		console.log(data);
+		$("#temp").text(data["Temperature (Celcius)"]);
 	}).fail(function() {
 		alert("Fail!");
 	});
