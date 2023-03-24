@@ -78,6 +78,11 @@
 			<button type="button" id="submit">Submit</button>
 		</form>
 	</main>
+	<footer>
+		<h2>Powered by:</h2>
+		<a href="https://www.pythonanywhere.com/" title="PythonAnywhere"><img src="https://upload.wikimedia.org/wikipedia/en/9/97/PythonAnywhere_logo.png" alt="Web Hosting by PythonAnywhere" border="0"></a>
+		<a href="https://www.weatherapi.com/" title="Free Weather API"><img src="https://cdn.weatherapi.com/v4/images/weatherapi_logo.png" alt="Weather data by WeatherAPI.com" border="0"></a>
+	</footer>
 
 	<script src="js/style.js"></script>
 	<script src="js/main.js"></script>
