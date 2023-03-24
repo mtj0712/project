@@ -2,11 +2,11 @@ from bottle import default_app, run, template, request, get, post, static_file
 
 @get('/')
 def index():
-    return template('templates/index')
+    return template('index')
 
 @get('/about')
 def about():
-    return template('templates/about')
+    return template('about')
 
 @get('/css/<filename>')
 def static_css(filename):
