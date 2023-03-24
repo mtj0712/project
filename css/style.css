@@ -38,3 +38,7 @@ nav > ul > li > a:hover {
 h1 {
 	text-align: center;
 }
+
+footer img {
+	height: 50px;
+}
