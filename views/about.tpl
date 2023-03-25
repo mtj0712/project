@@ -21,6 +21,10 @@
 	</nav>
 	<main>
 		<h1>About</h1>
+		<p>
+			I am Matthew (Hyunjoon) Jo, a sophomore in Johns Hopkins University majoring in Computer Science. This repository is my personal project, where I try to demonstrate my programming skills by deploying a website with various functionalities.<br>
+			The website is hosted by PythonAnywhere.
+		</p>
 	</main>
 	<footer>
 		<h2>To take a look at the code behind this website, click <a href="https://github.com/mtj0712/project" target="_blank">here</a></h2>
