@@ -3,7 +3,7 @@ import requests
 from bottle import default_app, run, template, request, get, post, static_file
 
 # Load API tokens
-tokens_file = open("./.tokens.json", "r")
+tokens_file = open(".tokens.json", "r")
 tokens = json.load(tokens_file)
 tokens_file.close()
 
